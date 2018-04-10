@@ -52,8 +52,7 @@ details:
                 distance_field[row][col] = distance
         return distance_field
         
-# 3. BFS use queue in search and DFS use stack in search.
-     http://www.codeskulptor.org/#poc_queue.py
+# 3. BFS use queue in search and DFS use stack in search: http://www.codeskulptor.org/#poc_queue.py
    
 # 4. BFS pseudo code:
 
