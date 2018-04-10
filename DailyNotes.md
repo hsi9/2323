@@ -3,6 +3,7 @@
 details:
 排序：两次循环，第一次将所有同字母string分类，第二次合并成一个list。
 
+
     NUM_CHARS = 26
     CHARACTERS = [chr(ord("a") + char_num) for char_num in range(NUM_CHARS)] 
 
@@ -24,7 +25,8 @@ details:
 2. Working with Distance Fields： http://www.codeskulptor.org/#poc_distance_solution.py
 details:
 在2D Grids上寻找到已知grid最短距离的grid。
-   
+ 
+ 
     def manhattan_distance(row0, col0, row1, col1):
         """
         Compute the Manhattan distance between the cells
