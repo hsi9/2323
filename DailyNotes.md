@@ -1,7 +1,8 @@
 # 10th April
-1. sorting list of strings: http://www.codeskulptor.org/#poc_string_sort.py
-details:
-排序：两次循环，第一次将所有同字母string分类，第二次合并成一个list。
+
+# 1. sorting list of strings: http://www.codeskulptor.org/#poc_string_sort.py
+#details:
+#排序：两次循环，第一次将所有同字母string分类，第二次合并成一个list。
 
 
     NUM_CHARS = 26
@@ -22,9 +23,9 @@ details:
             answer += buckets[char_index]
         return answer
 
-2. Working with Distance Fields： http://www.codeskulptor.org/#poc_distance_solution.py
-details:
-在2D Grids上寻找到已知grid最短距离的grid。
+# 2. Working with Distance Fields： http://www.codeskulptor.org/#poc_distance_solution.py
+#details:
+#在2D Grids上寻找到已知grid最短距离的grid。
  
  
     def manhattan_distance(row0, col0, row1, col1):
@@ -50,11 +51,11 @@ details:
                                 for entity in entity_list])
                 distance_field[row][col] = distance
         return distance_field
-        
-3. BFS use queue in search and DFS use stack in search.
-   http://www.codeskulptor.org/#poc_queue.py
-   
-4. BFS pseudo code:
+        
+# 3. BFS use queue in search and DFS use stack in search.
+     http://www.codeskulptor.org/#poc_queue.py
+   
+# 4. BFS pseudo code:
 
         while boundary is not empty:
             current_cell  ←  dequeue boundary
@@ -62,6 +63,6 @@ details:
                 if neighbor_cell is not in visited:
                     add neighbor_cell to visited
                     enqueue neighbor_cell onto boundary
-            
- 5. http://www.codeskulptor.org/#user44_HE3W5HDbet_16.py
+            
+# 5. http://www.codeskulptor.org/#user44_HE3W5HDbet_16.py
     line129 - line147注意new_position要在for循环前define，这样才没有local variable无法引用的问题。
