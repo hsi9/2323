@@ -50,3 +50,16 @@
             first_character = my_string[0]
             rest_inserted = insert_x(my_string[1 :])
             return first_character + 'x' + rest_inserted
+            
+# 5. write a recursive function gray_to_bin(gray_code)
+
+    def gray_to_bin(gray_code):
+        """
+        Convert a Gray code to a binary number
+        """
+        if len(gray_code) <= 1:
+            return gray_code
+        else:
+            significant_bits = gray_to_bin(gray_code[:-1])
+            last_bit = (int(gray_code[-1]) + int(significant_bits[-1])) % 2
+            return significant_bits + str(last_bit)
