@@ -28,3 +28,25 @@
                 return [first_elem] + rest_sliced
             else:
                 return []
+# 3. Write a function remove_x(my_string) that takes the string my_string and deletes all occurrences of the character 'x' from this string. For example, remove_x("catxxdogx") should return "catdog". You should not use Python's built-in string methods.
+
+    def remove_x(my_string):
+        if my_string == "":
+            return ""
+        else:
+            first_character = my_string[0]
+            rest_removed = remove_x(my_string[1 :])
+            if first_character == 'x':
+                return rest_removed
+            else:
+                return first_character + rest_removed
+   
+# 4. Write a function insert_x(my_string) that takes the string my_string and adds the character 'x' between each pair of consecutive characters in the string. For example, insert_x("catdog") should return "cxaxtxdxoxg"
+
+    def insert_x(my_string):  
+        if len(my_string) <= 1:
+            return my_string
+        else:
+            first_character = my_string[0]
+            rest_inserted = insert_x(my_string[1 :])
+            return first_character + 'x' + rest_inserted
