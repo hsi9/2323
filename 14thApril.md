@@ -22,7 +22,7 @@
     elif len(list2) == 0:
         return new_list + list1
 # 2. Recurrence
- (1) return list, 所以加[]
+ (1) return list, 所以加[ ]
  
  (2) +1, 因为要添加letter到最后一位的下一位。
     
