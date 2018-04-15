@@ -21,4 +21,28 @@
         return new_list + list2
     elif len(list2) == 0:
         return new_list + list1
-        
+# 2. Recurrence
+ (1) return list, 所以加[]
+ (2) +1, 因为要添加letter到最后一位的下一位。
+     
+     def gen_all_strings(word):
+        """
+        Generate all strings that can be composed from the letters in word
+        in any order.
+
+        Returns a list of all strings that can be formed from the letters
+        in word.
+
+        This function should be recursive.
+        """
+   
+        if word == '':
+            return [''] --------------------------------------------------(1)        
+        first = word[0]
+        rest = word[1:]    
+        temp_string =[]
+        for string in gen_all_strings(rest):
+            for idx in range(len(string)+1):---------------------------------------------(2)
+                temp_string.append(string[:idx]+first+string[idx:]) 
+        return gen_all_strings(rest) + temp_string
+
