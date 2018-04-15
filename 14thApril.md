@@ -23,9 +23,11 @@
         return new_list + list1
 # 2. Recurrence
  (1) return list, 所以加[]
+ 
  (2) +1, 因为要添加letter到最后一位的下一位。
-     
-     def gen_all_strings(word):
+    
+    
+    def gen_all_strings(word):
         """
         Generate all strings that can be composed from the letters in word
         in any order.
