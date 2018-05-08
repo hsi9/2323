@@ -14,7 +14,7 @@ Pandas: create high performance data structures
 use Pandas to create Series, DataFrames and quick analysis on data
 
 
-Machine Learning with Scikit-LearPy 
+Machine Learning with Scikit-Learn 
 
 Use SciPy to create distributions and solve statistics problems
 
