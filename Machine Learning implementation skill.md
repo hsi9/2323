@@ -5,3 +5,4 @@
 5. Pandas has a method of getting dummy variables to do with categorical variables
 6. seaborn to visualize data such as sns.pairplot, sns.factorplot
 7. to split training data set and testing data set, using train_test_split from sklearn.cross_validation
+8. SVM do not directly provide probability estimates
