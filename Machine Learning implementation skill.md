@@ -11,3 +11,4 @@
 11. Do perform feature scaling when using Gaussian kernel
 12. If the number of features is small and the training set is intermediate, use SVM with a Gaussian kernel
 13. If the number of features is small and the training set is large, use logistic regression or SVM without kernel
+# KNN
