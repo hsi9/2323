@@ -13,5 +13,7 @@
 13. If the number of features is small and the training set is large, use logistic regression or SVM without kernel
 # KNN
 1.KNN is a non-parametric method for classification and regression. It's a supervised learning.
+
 2.When K=1 or be any smaller value, it may cause overfitting. As the value of K increases，the boundary would be more smooth.
+
 3.KNN for regression can be applied in time series. In a time interval, we look for the average value of all points in the interval or we can add different weight for different points.
