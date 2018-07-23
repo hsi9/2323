@@ -12,3 +12,6 @@
 12. If the number of features is small and the training set is intermediate, use SVM with a Gaussian kernel
 13. If the number of features is small and the training set is large, use logistic regression or SVM without kernel
 # KNN
+KNN is a non-parametric method for classification and regression. It's a supervised learning.
+When K=1 or be any smaller value, it may cause overfitting. As the value of K increases，the boundary would be more smooth.
+KNN for regression can be applied in time series. In a time interval, we look for the average value of all points in the interval or we can add different weight for different points.
