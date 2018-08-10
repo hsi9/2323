@@ -13,3 +13,4 @@
           else:
               print "Number out of range."
           return nam
+# 2. You dont need to say global if you are just using a global variable, you only need to say this when you are updating a global variable.
