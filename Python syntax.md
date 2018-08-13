@@ -35,3 +35,10 @@
                   timer.stop()
                   print "Time between clicks is " + str(total_ticks / 100.0) + " seconds"
                   total_ticks = 0
+# 4. Format time in A:BC:D
+      def format(t):
+            A = t // 600
+            B = t % 600 //100
+            C = t % 100 //10  
+            D = t % 10
+            return str(A) + ":" + str(B) + str(C) + "." + str(D)
