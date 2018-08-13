@@ -14,3 +14,24 @@
               print "Number out of range."
           return nam
 # 2. You dont need to say global if you are just using a global variable, you only need to say this when you are updating a global variable.
+# 3. To measure how fast to click the mouse twice.
+      total_ticks = 0
+      first_click = True
+
+      # Timer handler
+      def tick():
+            global total_ticks
+            total_ticks += 1
+    
+      # Button handler
+      def click():
+            global total_ticks, first_click
+            if first_click:
+                  first_click = False
+                  total_ticks = 0
+                  timer.start()
+            else:
+                  first_click = True
+                  timer.stop()
+                  print "Time between clicks is " + str(total_ticks / 100.0) + " seconds"
+                  total_ticks = 0
