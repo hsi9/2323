@@ -44,3 +44,5 @@
             return str(A) + ":" + str(B) + str(C) + "." + str(D)
             
 # 5. If reference issue is confused, you can use list to make a copy of things, so you can modify it but not tho other.
+
+# week 5a - List Examples
