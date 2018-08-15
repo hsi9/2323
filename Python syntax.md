@@ -74,8 +74,8 @@
 # 10. Class -- def __init__()
       class xxxx:
             def __init__(self, A,B):
-                  self.A = A  (left A is field name, right A is value assigned)
+                  self.A = A  (left A is field name, right A is argument value assigned to the filed)
                   self.X = B  (x is field name, B is value assigned)
-
+      A and B can be an output by calling another class
 
 # week 5a - List Examples, 5b - Dictionaries - create random dictionary,
