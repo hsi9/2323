@@ -55,4 +55,10 @@
             
             if has_odd:
                   numbers.remove(last_odd)
+# 7. String List Joining
+      def string_list_join(string_list):
+            ans = ""
+            for i in range(len(string_list)):
+                  ans += string_list[i]
+            return ans
 # week 5a - List Examples
