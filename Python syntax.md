@@ -62,6 +62,16 @@
                   ans += string_list[i]
             return ans
 # 8. [x for x in range(8)]*2
+# 9. status change
+      def status():
+            global state
+            if state == 0:
+                  state = 1
+            elif state == 1:
+                  state = 2
+            else:
+                  state = 1
+
 
 
 # week 5a - List Examples, 5b - Dictionaries - create random dictionary,
