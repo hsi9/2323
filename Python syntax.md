@@ -61,4 +61,7 @@
             for i in range(len(string_list)):
                   ans += string_list[i]
             return ans
-# week 5a - List Examples
+
+
+
+# week 5a - List Examples, 5b - Dictionaries - create random dictionary,
