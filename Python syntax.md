@@ -43,6 +43,16 @@
             D = t % 10
             return str(A) + ":" + str(B) + str(C) + "." + str(D)
             
-# 5. If reference issue is confused, you can use list to make a copy of things, so you can modify it but not tho other.
-
+# 5. If reference issue is confused, you can use list to make a copy of things, so you can modify it but not the other.
+# 6. Remove the last odd number from a list
+      def remove_last_odd(numbers):
+            has_odd = False
+            last_odd = 0
+            for num in numbers:
+                  if num % 2 == 1:
+                        has_odd = True
+                        last_odd = num
+            
+            if has_odd:
+                  numbers.remove(last_odd)
 # week 5a - List Examples
