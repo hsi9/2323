@@ -71,7 +71,11 @@
                   state = 2
             else:
                   state = 1
-
+# 10. Class -- def __init__()
+      class xxxx:
+            def __init__(self, A,B):
+                  self.A = A  (left A is field name, right A is value assigned)
+                  self.X = B  (x is field name, B is value assigned)
 
 
 # week 5a - List Examples, 5b - Dictionaries - create random dictionary,
