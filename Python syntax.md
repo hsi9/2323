@@ -61,7 +61,7 @@
             for i in range(len(string_list)):
                   ans += string_list[i]
             return ans
-
+# 8. [x for x in range(8)]*2
 
 
 # week 5a - List Examples, 5b - Dictionaries - create random dictionary,
