@@ -78,4 +78,6 @@
                   self.X = B  (x is field name, B is value assigned)
       A and B can be an output by calling another class, list, etc.
 
+# 11. random choose items from a list without replacement, should use shuffle() the list first then use pop().
+
 # week 5a - List Examples, 5b - Dictionaries - create random dictionary,
