@@ -80,7 +80,7 @@
 
 # 11. random choose items from a list without replacement, should use shuffle() the list first then use pop().
 
-# 12. Return the index of a position of a list by a condition that is closest to the 0 position:
+# 12. Return the index of a position of a list by some conditions that is closest to the 0 position:
             for A in range(1, len(list)):
                   if condition:
                         return A
