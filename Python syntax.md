@@ -84,5 +84,5 @@
             for A in range(1, len(list)):
                   if condition:
                         return A
-
+# 13. The running time of BFS can be O(n^2) when a graph is dense or O(m+n) when a graph is loose.
 # week 5a - List Examples, 5b - Dictionaries - create random dictionary,
